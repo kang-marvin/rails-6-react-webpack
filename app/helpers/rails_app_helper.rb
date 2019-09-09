@@ -1,0 +1,2 @@
+module RailsAppHelper
+end

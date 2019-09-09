@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class GoalsControllerTest < ActionDispatch::IntegrationTest
+class RailsAppControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get goals_index_url
+    get rails_app_index_url
     assert_response :success
   end
 
